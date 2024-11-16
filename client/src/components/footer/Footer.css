@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 50px 0;
+}
+.footer-text {
+  font-size: 25px;
+  color: #fff;
+}
+.footer-text span {
+  color: rgb(148, 50, 33);
+  font-weight: 600;
+}
+.footer ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+}
+.footer ul li a {
+  font-size: 30px;
+  color: #fff;
+  transition: all 0.3s ease-in;
+}
+.footer ul li a:hover {
+  font-size: 50px;
+  color: rgb(148, 50, 33);
+}

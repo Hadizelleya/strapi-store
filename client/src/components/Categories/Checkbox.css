@@ -1,0 +1,50 @@
+.checkbox-wrapper-25 input[type="checkbox"] {
+  background-image: -webkit-linear-gradient(
+      hsla(0, 91%, 48%, 0.1),
+      hsla(0, 0%, 100%, 0.1)
+    ),
+    -webkit-linear-gradient(left, rgb(248, 247, 247) 50%, rgb(248, 247, 247) 50%);
+  background-size: 100% 100%, 200% 100%;
+  background-position: 0 0, 15px 0;
+  border-radius: 25px;
+  box-shadow: inset 0 1px 4px hsla(0, 0%, 0%, 0.5),
+    inset 0 0 10px hsla(0, 0%, 0%, 0.5), 0 0 0 1px hsla(0, 0%, 0%, 0.1),
+    0 -1px 2px 2px hsla(0, 0%, 0%, 0.25), 0 2px 2px 2px hsla(0, 0%, 100%, 0.75);
+  cursor: pointer;
+  height: 25px;
+  padding-right: 25px;
+  width: 75px;
+  -webkit-appearance: none;
+  -webkit-transition: 0.25s;
+}
+.checkbox-wrapper-25 input[type="checkbox"]:after {
+  background-color: #0c0707;
+  background-image: -webkit-linear-gradient(
+    hsla(0, 97%, 25%, 0.5),
+    hsla(0, 95%, 26%, 0.5)
+  );
+  border-radius: 25px;
+  box-shadow: inset 0 1px 1px 1px hsla(0, 0%, 100%, 1),
+    inset 0 -1px 1px 1px hsla(0, 96%, 37%, 0.25),
+    0 1px 3px 1px hsla(0, 94%, 32%, 0.5), 0 0 2px hsla(0, 94%, 36%, 0.25);
+  content: "";
+  display: block;
+  height: 25px;
+  width: 50px;
+}
+.checkbox-wrapper-25 input[type="checkbox"]:checked {
+  background-position: 0 0, 35px 0;
+  padding-left: 25px;
+  padding-right: 0;
+}
+.check-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.check-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}

@@ -1,0 +1,121 @@
+.explore-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+  margin-top: 200px;
+  gap: 20px;
+  background-color: white;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-left: 100px;
+  gap: 30px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.explore-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+.explore-title {
+  font-size: 40px;
+  color: rgb(148, 50, 33);
+}
+.explore-heading p {
+  color: #aaaaaa;
+  font-weight: 500;
+  width: 80%;
+  text-align: justify;
+}
+.note {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  color: black;
+}
+.quote-icon {
+  font-size: 35px;
+  color: rgb(148, 50, 33);
+}
+.note p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.explore-footer {
+  color: #aaaaaa;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 500;
+}
+.explore-footer p {
+  width: 80%;
+  text-align: justify;
+}
+.explore-button {
+  width: 40%;
+  padding: 10px;
+  border-radius: 10px;
+  border: white 2px solid;
+  background-color: rgb(148, 50, 33);
+  color: white;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  font-weight: 700;
+  cursor: pointer;
+}
+.explore-button:hover {
+  border: rgb(148, 50, 33) 2px solid;
+  background-color: white;
+  color: rgb(148, 50, 33);
+  scale: 1.1;
+}
+.right {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.explore-box-text {
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding: 10px;
+  height: 255px;
+  width: 100%;
+  max-width: 255px;
+}
+.explore-box {
+  max-width: 255px;
+  width: 100%;
+  height: 255px;
+}
+.explore-box img {
+  width: 100%;
+  height: 100%;
+}
+.explore-box-text h4 {
+  font-size: 20px;
+  /* width: max-content; */
+}
+.explore-box-text p {
+  font-size: 15px;
+  font-style: italic;
+  color: #aaaaaa;
+}
